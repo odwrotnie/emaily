@@ -5,11 +5,15 @@ import javax.inject._
 import it.wext.emaily.api.EmailyService
 import play.api.mvc._
 
+import scala.concurrent.ExecutionContext
+
 @Singleton
 class Main @Inject()(emailyService: EmailyService,
-                     cc: ControllerComponents) extends AbstractController(cc) {
+                     cc: ControllerComponents)(implicit ec: ExecutionContext) extends AbstractController(cc) {
 
-  def index() = Action { implicit request: Request[AnyContent] =>
-    Ok(views.html.index("asdf"))
+  def index() = Action.async { implicit rh =>
+    emailyService.hello("Pawel").invoke() map { x =>
+      Ok(views.html.index(x))
+    }
   }
 }
