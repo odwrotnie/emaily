@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="jdk" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/emaily-api" />
+            <option value="$PROJECT_DIR$/emaily-api/project" />
+            <option value="$PROJECT_DIR$/emaily-impl" />
+            <option value="$PROJECT_DIR$/emaily-impl/project" />
+            <option value="$PROJECT_DIR$/emaily-stream-api" />
+            <option value="$PROJECT_DIR$/emaily-stream-api/project" />
+            <option value="$PROJECT_DIR$/emaily-stream-impl" />
+            <option value="$PROJECT_DIR$/emaily-stream-impl/project" />
+            <option value="$PROJECT_DIR$/project" />
+            <option value="$PROJECT_DIR$/web-gateway" />
+            <option value="$PROJECT_DIR$/web-gateway/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="0.13.16" />
+        <option name="useAutoImport" value="true" />
+        <option name="useOurOwnAutoImport" value="true" />
+      </SbtProjectSettings>
+    </option>
+  </component>
+</project>

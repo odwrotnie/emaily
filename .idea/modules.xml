@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/emaily.iml" filepath="$PROJECT_DIR$/.idea/modules/emaily.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/emaily-build.iml" filepath="$PROJECT_DIR$/.idea/modules/emaily-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/emailyApi.iml" filepath="$PROJECT_DIR$/.idea/modules/emailyApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/emailyApi-build.iml" filepath="$PROJECT_DIR$/.idea/modules/emailyApi-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/emailyImpl.iml" filepath="$PROJECT_DIR$/.idea/modules/emailyImpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/emailyImpl-build.iml" filepath="$PROJECT_DIR$/.idea/modules/emailyImpl-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/emailyStreamApi.iml" filepath="$PROJECT_DIR$/.idea/modules/emailyStreamApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/emailyStreamApi-build.iml" filepath="$PROJECT_DIR$/.idea/modules/emailyStreamApi-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/emailyStreamImpl.iml" filepath="$PROJECT_DIR$/.idea/modules/emailyStreamImpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/emailyStreamImpl-build.iml" filepath="$PROJECT_DIR$/.idea/modules/emailyStreamImpl-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webGateway.iml" filepath="$PROJECT_DIR$/.idea/modules/webGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webGateway-build.iml" filepath="$PROJECT_DIR$/.idea/modules/webGateway-build.iml" />
+    </modules>
+  </component>
+</project>
